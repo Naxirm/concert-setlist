@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css?family=New+Rocker:400");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "New Rocker", sans-serif;
+}
+body {
+  background-color: rgb(34, 34, 34);
+  display: grid;
+  place-items: center;
+}
+.section-center {
+  margin-top: 2rem;
+  background-color: rgb(27, 27, 27);
+  padding: 2rem;
+  width: 95vw;
+  max-width: 500px;
+  border-radius: 10px;
+}
+.alert {
+  height: 2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  margin-bottom: 1rem;
+  color: white;
+}
+h3 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 1rem;
+  color: orangered;
+}
+.form-bar {
+  margin-bottom: 2rem;
+}
+#grocery-input {
+  width: 80%;
+  height: 2rem;
+  font-size: large;
+}
+.submit-btn {
+  width: 19%;
+  height: 2rem;
+  font-size: large;
+  border-radius: 5px;
+}
+.submit-btn:hover {
+  cursor: pointer;
+  background-color: rgb(255, 119, 0);
+  transition: all 0.3s ease;
+  color: white;
+}
+.groceries-container {
+  visibility: hidden;
+}
+.grocery-item {
+  display: flex;
+  color: orangered;
+  padding: 0.5rem 0;
+  font-size: large;
+}
+.title {
+  width: 80%;
+}
+.buttons {
+  width: 19%;
+}
+.item-delete,
+.edit-btn {
+  width: 45%;
+  background-color: transparent;
+  border: none;
+}
+.item-delete,
+.edit-btn:hover {
+  cursor: pointer;
+}
+.item-delete {
+  color: rgb(255, 0, 0);
+}
+.edit-btn {
+  color: rgb(26, 226, 26);
+}
+.show-container {
+  visibility: visible;
+}
+.dlt-btn {
+  display: grid;
+  justify-content: center;
+}
+.clear-btn {
+  font-size: large;
+  text-transform: capitalize;
+  margin-top: 1rem;
+  padding: 0.3rem 0.6rem;
+  border-radius: 5px;
+}
+.clear-btn:hover {
+  cursor: pointer;
+  background-color: rgba(255, 0, 51, 0.738);
+  color: white;
+  transition: all 0.3s ease;
+}
+.display-green-alert {
+  background-color: rgba(13, 250, 13, 0.738);
+  transition: all 0.3s ease;
+}
+.display-red-alert {
+  background-color: rgba(255, 0, 51, 0.738);
+  transition: all 0.3s ease;
+}
+.display-orange-alert {
+  background-color: rgba(255, 123, 0, 0.738);
+  transition: all 0.3s ease;
+}
